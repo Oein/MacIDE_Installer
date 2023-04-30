@@ -30,8 +30,8 @@ brew install wget
 cd ~/
 git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ~/powerlevel10k
 echo 'source ~/powerlevel10k/powerlevel10k.zsh-theme' >>~/.zshrc
-wget https://raw.githubusercontent.com/Oein/MacIDE_Installer/main/.p10k.zsh
-wget https://github.com/Oein/MacIDE_Installer/raw/main/p10kTheme.zsh -o ~/powerlevel10k/powerlevel10k.zsh-theme
+curl https://raw.githubusercontent.com/Oein/MacIDE_Installer/main/.p10k.zsh -o ~/.p10k.zsh
+curl https://raw.githubusercontent.com/Oein/MacIDE_Installer/main/p10kTheme.zsh -o ~/powerlevel10k/powerlevel10k.zsh-theme
 
 # Install iTerm
 brew install --cask iterm2
@@ -59,4 +59,4 @@ mkdir /Users/Shared/bin
 
 # Set zshrc
 rm ~/.zshrc
-wget -o ~/.zshrc https://github.com/Oein/MacIDE_Installer/raw/main/zshrc.zsh
+curl -o ~/.zshrc https://raw.githubusercontent.com/Oein/MacIDE_Installer/main/zshrc.zsh
