@@ -21,7 +21,7 @@ nvm install 16;
 nvm use 16;
 
 # Install oh my zsh
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+RUNZSH=no sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 
 # Install wget
 brew install wget
@@ -43,3 +43,13 @@ brew install --cask spotify
 brew install --cask google-chrome
 
 # Install vsc
+brew install --cask visual-studio-code
+
+# Install sublime text
+brew install --cask sublime-text
+
+# Install keka
+brew install --cask keka
+
+# Shared binaries
+mkdir /Users/Shared/bin
