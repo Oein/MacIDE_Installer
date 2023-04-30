@@ -51,5 +51,8 @@ brew install --cask sublime-text
 # Install keka
 brew install --cask keka
 
+# Install discord
+brew install --cask discord
+
 # Shared binaries
 mkdir /Users/Shared/bin
