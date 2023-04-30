@@ -56,3 +56,7 @@ brew install --cask discord
 
 # Shared binaries
 mkdir /Users/Shared/bin
+
+# Set zshrc
+rm ~/.zshrc
+wget -o ~/.zshrc https://github.com/Oein/MacIDE_Installer/raw/main/zshrc.zsh
