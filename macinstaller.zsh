@@ -54,6 +54,9 @@ brew install --cask keka
 # Install discord
 brew install --cask discord
 
+# 7z file extracter
+brew install p7zip
+
 # Shared binaries
 mkdir /Users/Shared/bin
 

@@ -19,3 +19,8 @@ export PATH=/Users/Shared/bin:$PATH
 
 # Sublime Text
 export PATH=/Applications/Sublime\ Text.app/Contents/SharedSupport/bin/:$PATH
+
+# Alias
+alias untargz=tar -xvf
+alias untarbz2=tar -xvf
+alias un7z=7za x
