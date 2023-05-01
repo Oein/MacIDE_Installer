@@ -16,6 +16,7 @@ export NVM_DIR="$HOME/.nvm"
 
 # Shared Bin
 export PATH=/Users/Shared/bin:$PATH
+export PATH=/Users/Shared/bin/**/bin:$PATH
 
 # Sublime Text
 export PATH=/Applications/Sublime\ Text.app/Contents/SharedSupport/bin/:$PATH
