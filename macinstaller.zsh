@@ -57,6 +57,9 @@ brew install --cask discord
 # 7z file extracter
 brew install p7zip
 
+# Install Stats
+brew install --cask stats
+
 # Shared binaries
 mkdir /Users/Shared/bin
 
