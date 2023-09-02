@@ -4,7 +4,7 @@ sudo echo "Request sudo done"
 
 # Install brew
 NONINTERACTIVE=1 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)";
-(echo; echo 'eval "$(/opt/homebrew/bin/brew shellenv)"') >> /Users/oein/.zprofile;
+(echo; echo 'eval "$(/opt/homebrew/bin/brew shellenv)"') >> ~/.zprofile;
 eval "$(/opt/homebrew/bin/brew shellenv)";
 
 # Install node version manager
